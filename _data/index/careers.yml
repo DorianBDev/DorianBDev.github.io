@@ -1,0 +1,62 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: Research projects
+    i18n: company_a
+  desc:
+    detail: | 
+        <b>Research works</b> in collaboration with French researchers and a Russian laboratory on different subjects like <b>hardware reverse engineering</b>, <b>cryptography</b> or <b>template matching algorithms</b>. <br /><br />
+        I made three <b>publications</b> for the moment : <br />
+            ✍ <i>"Le coût de la rétro-ingénierie du silicium", Hackable 32, pp. 106-115, 2019.</i> <br />
+            ✍ <i>"Rétro-ingénierie matérielle : comprendre le silicium", Hackable 31, pp. 108-114, 2019.</i> <br />
+            ✍ <i>"Rétro-ingénierie matérielle : accéder au silicium", Hackable 31, pp. 98-107, 2019.</i>
+    i18n: company_a_desc
+  date:
+    detail: Jun. 2019 - now
+    i18n: company_a_date
+  job:
+    detail: Student
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: Research projects in a University lab
+    i18n: company_a
+  desc:
+    detail: Worked on <b>hardware reverse engineering</b> and <b>cryptography</b> at the Laboratory of Cryptology and Operational Virology (C + V)°.
+    i18n: company_a_desc
+  date:
+    detail: Oct. 2018 - Jun. 2019
+    i18n: company_a_date
+  job:
+    detail: Student
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: ESIEA (Computer engineering school)
+    i18n: company_a
+  desc:
+    detail: Currently an <b>engineering student</b> at ESIEA, Graduate Engineering School in Digital Sciences and Technologies. I'm focusing my university curriculum on cybersecurity. I also worked on operating system science and neural networks.
+    i18n: company_a_desc
+  date:
+    detail: Sept. 2017 - now
+    i18n: company_a_date
+  job:
+    detail: Student
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: Baccalaureate
+    i18n: company_b
+  desc:
+    detail: I obtained the <b>baccalaureate</b> in <b>scientific series</b> with engineering sciences specialty and I.S.N. (Computer science and digital) option. With honors.
+    i18n: company_b_desc
+  date:
+    detail: Jun. 2017
+    i18n: company_b_date
+  job:
+    detail: Student
+    i18n: company_b_job
+  icon: fa-plus-square

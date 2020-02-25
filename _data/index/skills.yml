@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: C++, C, Java, Python, OpenGL, DirectX, English, French, Deep Learning, OS
+percentage: 80, 85, 60, 55, 40, 15, 70, 100, 45, 50
