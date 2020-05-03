@@ -5,11 +5,12 @@
     i18n: company_a
   desc:
     detail: | 
-        <b>Research works</b> in collaboration with French researchers and a Russian laboratory on different subjects like <b>hardware reverse engineering</b>, <b>cryptography</b> or <b>template matching algorithms</b>. <br /><br />
+        <b>Research works</b> in collaboration with a French researcher and a Russian laboratory on different subjects like <b>hardware reverse engineering</b>, <b>cryptography</b> or <b>template matching algorithms</b>. Fork of Degate : software for reverse engineering of silicon chips in C++, and porting it for allowing multiplatform use. <br /><br />
         I made three <b>publications</b> for the moment : <br />
-            ✍ <i>"Le coût de la rétro-ingénierie du silicium", Hackable 32, pp. 106-115, 2019.</i> <br />
-            ✍ <i>"Rétro-ingénierie matérielle : comprendre le silicium", Hackable 31, pp. 108-114, 2019.</i> <br />
-            ✍ <i>"Rétro-ingénierie matérielle : accéder au silicium", Hackable 31, pp. 98-107, 2019.</i>
+            ✍ <i>"Se protéger de la rétro-ingénierie matérielle -- État de l'art des méthodes de protection existantes", Hackable 33, pp. 68-83, 2020.</i> <br />
+            ✍ <i>"Le coût de la rétro-ingénierie du silicium -- Matériel nécessaire et risques associés", Hackable 32, pp. 106-115, 2019.</i> <br />
+            ✍ <i>"Rétro-ingénierie matérielle : comprendre le silicium -- État de l'art des méthodes d'analyses de puce de silicium", Hackable 31, pp. 108-114, 2019.</i> <br />
+            ✍ <i>"Rétro-ingénierie matérielle : accéder au silicium -- État de l'art des méthodes de décapsulations et de déstratifications de puce de silicium", Hackable 31, pp. 98-107, 2019.</i>
     i18n: company_a_desc
   date:
     detail: Jun. 2019 - now
@@ -37,7 +38,7 @@
     detail: ESIEA (Computer engineering school)
     i18n: company_a
   desc:
-    detail: Currently an <b>engineering student</b> at ESIEA, Graduate Engineering School in Digital Sciences and Technologies. I'm focusing my university curriculum on cybersecurity. I also worked on operating system science and neural networks.
+    detail: Currently an <b>engineering student</b> at ESIEA, Graduate Engineering School in Digital Sciences and Technologies. I'm focusing my university curriculum on cybersecurity. I also worked on operating system science and neural networks (Creation of TigiNet : a C ++ library for creating neural networks without dependency).
     i18n: company_a_desc
   date:
     detail: Sept. 2017 - now
@@ -51,7 +52,7 @@
     detail: Baccalaureate
     i18n: company_b
   desc:
-    detail: I obtained the <b>baccalaureate</b> in <b>scientific series</b> with engineering sciences specialty and I.S.N. (Computer science and digital) option. With honors.
+    detail: <b>Baccalaureate</b> in <b>scientific series</b> with engineering sciences specialty and I.S.N. (Computer science and digital) option. With honors.
     i18n: company_b_desc
   date:
     detail: Jun. 2017
