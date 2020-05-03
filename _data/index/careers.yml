@@ -38,7 +38,8 @@
     detail: ESIEA (Computer engineering school)
     i18n: company_a
   desc:
-    detail: Currently an <b>engineering student</b> at ESIEA, Graduate Engineering School in Digital Sciences and Technologies. I'm focusing my university curriculum on cybersecurity. I also worked on operating system science and neural networks (Creation of TigiNet : a C ++ library for creating neural networks without dependency).
+    detail: | 
+        Currently an <b>engineering student</b> at ESIEA, Graduate Engineering School in Digital Sciences and Technologies. I'm focusing my university curriculum on cybersecurity. I also worked on operating system science and neural networks (Creation of TigiNet : a C++ library for creating neural networks without dependency).
     i18n: company_a_desc
   date:
     detail: Sept. 2017 - now
