@@ -8,14 +8,14 @@
 #  img: /static/assets/img/landing/jekyll.png
 #  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
 
+- name: Degate
+  i18n: Degate
+  url: https://github.com/DegateCommunity/Degate
+  img: /static/assets/img/landing/degate.png
+  desc: Degate is an open source software for chip reverse engineering.
+
 - name: TigiNet
   i18n: TigiNet
   url: https://dorianbdev.github.io/TigiNet/docs/index.html
   img: /static/assets/img/landing/tiginet.png
   desc: TigiNet is a neural network library in C++.
-
-- name: Degate
-  i18n: Degate
-  url: https://github.com/DorianBDev/degate
-  img: /static/assets/img/landing/degate.png
-  desc: Degate is an open source software for chip reverse engineering. (actually a fork)
