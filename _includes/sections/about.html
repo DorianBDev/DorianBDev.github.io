@@ -43,7 +43,7 @@
                     {% endif %}
                     <li><a href="{{ site.baseurl }}/feed.xml" target="blank"><i class="fa fa-rss"></i></a></li>
                     {% if site.author.cv %}
-                    <li><a href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
+                    <li><a id="cv_pdf" href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
                     {% endif %}
                 </ul>
             </div>
@@ -61,7 +61,7 @@
     </div>
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
-            <p><span data-i18n="about_me.des">{{ site.author.desc }}</span></p>
+            <p><span data-i18n="[html]about_me.des">{{ site.author.desc }}</span></p>
         </div>
     </div>
 </div>

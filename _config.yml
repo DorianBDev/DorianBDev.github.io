@@ -8,6 +8,11 @@ keywords: dorianb,dorian,bachelot,dorianbachelot
 url: https://dorianbdev.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
 img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+languages: ["en", "fr"]
+defaultLang: en
+languageNames:
+  de: French
+  en: English
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
@@ -21,7 +26,7 @@ author:  # change following line to your infomation.
   twitter_username:   # Leave blank if you don't have now
   email: contact@dorianb.net  # Leave blank if you don't have now
   keybase: dorianb
-  cv: /CV_eng.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
+  cv: /CV_en.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-apache
@@ -29,9 +34,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: | 
-    Currently studying at <b>ESIEA</b> (Graduate Engineering School in Digital Sciences and Technologies), I am passionate about <b>computer science</b> and <b>cybersecurity research</b>. 
-    I have a <b>driver license</b> and a car. Also a developer for several years I have created many projects in different programming languages.
+  desc: # See \static\locales\[language].json
 
 # comment
 #disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

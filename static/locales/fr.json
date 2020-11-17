@@ -1,0 +1,77 @@
+{
+  "website":{
+    "title": "Dorian Bachelot"
+  },
+  "nav":{
+    "home": "Acceuil",
+    "about_me": "A propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "career": "Carrière",
+    "blog": "Blog",
+    "link": "Liens"
+  },
+  "about_me":{
+    "about_me": "A propos",
+    "des": "Je suis <b>travailleur</b> et ambitieux avec une grande passion pour <b>la recherche en cybersécurité</b>. J'étudie actuellement les <b>sciences numériques</b> dans une école d'ingénieurs en France et je travaille également sur le sujet de recherche de la <b>rétro-ingénierie inverse matériel</b>. J'adore acquérir de nouvelles compétences et partager mes connaissances avec les autres. Également développeur depuis plusieurs années, j'ai créé de nombreux projets dans différents langages de programmation."
+  },
+  "skills":{
+    "my_skills": "Mes compétences"
+  },
+  "projects":{
+    "my_projects": "Mes projets",
+    "degate": "Degate est un logiciel open source pour la rétro-ingénierie matérielle de puces de silicium.",
+    "tiginet": "TigiNet est une bibliothèque de réseaux de neurones en C++."
+  },
+  "career":{
+    "my_career": "Ma carrière",
+	
+	"publication_d": "Publication",
+	"publication_d_desc": "✍ <i>\"Se protéger de la rétro-ingénierie matérielle -- État de l'art des méthodes de protection existantes\", Hackable 33, pp. 68-83, 2020.</i> <br />",
+	"publication_d_date": "Mar. 2020",
+	"publication_d_job": "Étudiant",
+	
+	"publication_c": "Publication",
+	"publication_c_desc": "✍ <i>\"Le coût de la rétro-ingénierie du silicium -- Matériel nécessaire et risques associés\", Hackable 32, pp. 106-115, 2019.</i> <br />",
+	"publication_c_date": "Dec. 2019",
+	"publication_c_job": "Étudiant",
+	
+	"publication_b": "Publication",
+	"publication_b_desc": "✍ <i>\"Rétro-ingénierie matérielle : comprendre le silicium -- État de l'art des méthodes d'analyses de puce de silicium\", Hackable 31, pp. 108-114, 2019.</i> <br />",
+	"publication_b_date": "Sept. 2019",
+	"publication_b_job": "Étudiant",
+	
+	"publication_a": "Publication",
+	"publication_a_desc": "✍ <i>\"Rétro-ingénierie matérielle : accéder au silicium -- État de l'art des méthodes de décapsulations et de déstratifications de puce de silicium\", Hackable 31, pp. 98-107, 2019.</i>",
+	"publication_a_date": "Sept. 2019",
+	"publication_a_job": "Étudiant",
+	
+	"research": "Projets de recherche",
+	"research_desc": "<b>Travaux de recherche en collaboration</b> avec un chercheur français et un laboratoire russe sur différents sujets comme la rétro-ingénierie matérielle de puce de silicium, la cryptologie ou encore les algorithmes de correspondance de modèles. Reprise du développement (fork) de <b>Degate</b> : un logiciel de rétro-ingénierie de puce de silicium en C++, et portage de celui-ci pour une utilisation multiplateforme.",
+	"research_date": "Juin. 2019 - aujourd'hui",
+	"research_job": "Étudiant",
+	
+	"research_lab": "Espoir recherche - Laboratoire (C + V)°",
+	"research_lab_desc": "Espoir recherche au laboratoire de cryptologie et de virologie opérationnelles (C+V)°. Mes travaux de recherches se sont concentrés sur <b>la rétro-ingénierie matérielle</b> de puce de silicium.",
+	"research_lab_date": "Oct. 2018 - Juin. 2019",
+	"research_lab_job": "Étudiant",
+	
+	"esiea": "ESIEA (Diplôme d'ingénieur)",
+	"esiea_desc": "Actuellement en formation d’ingénieur à <b>l’ESIEA</b>, école d’ingénieurs du monde numérique. Je concentre mon cursus sur la cybersécurité mais je travaille aussi sur les réseaux de neurones (Réalisation de <b>TigiNet</b> : une bibliothèque C++ de création de réseau de neurones sans dépendance).",
+	"esiea_date": "Sept. 2017 - aujourd'hui",
+	"esiea_job": "Étudiant",
+	
+	"baccalaureate": "Baccalauréat",
+	"baccalaureate_desc": "Baccalauréat en série scientifique spécialité sciences de l'ingénieur avec option I.S.N. (informatique et science du numérique). Mention bien.",
+	"baccalaureate_date": "Jun. 2017",
+	"baccalaureate_job": "Étudiant"
+  },
+  "blog":{
+    "my_blog": "Mon blog"
+  },
+  "link":{
+    "link": "",
+    "view": ""
+  }
+
+}

@@ -32,7 +32,7 @@ permalink: /
 		  
           {% for language in site.data.index.language %}
           <li>
-            <a id="set_lang_{{ language.locale }}" class="btn btn-sm set_{{ language.locale }}" data-locale="{{ language.locale }}">
+            <a id="set_lang_{{ language.locale }}" class="btn btn-sm set_{{ language.locale }}" data-locale="{{ language.locale }}" onclick="changeLanguage('{{ language.locale }}')">
               <img src="{{ language.flag | prepend: site.baseurl }}" height="16" width="16">
             </a>
           </li>
@@ -66,4 +66,12 @@ iframe {
   transform-origin: top left;
 }
 </style>
-<!-- <iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe> -->
+
+<script type="text/javascript">
+	function changeLanguage(value)
+	{
+		var p = document.getElementById("cv_pdf");
+		p.href = "CV_" + value + ".pdf";
+	}
+</script>
+
