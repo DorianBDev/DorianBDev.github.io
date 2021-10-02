@@ -27,29 +27,9 @@
     "my_career": "My Career",
 	
 	"research": "Research projects",
-	"research_desc": "<b>Research works</b> in collaboration with a French researcher and a Russian laboratory on different subjects like <b>hardware reverse engineering</b>, <b>cryptography</b> or <b>template matching algorithms</b>. Fork of Degate : software for reverse engineering of silicon chips in C++, and porting it for allowing multiplatform use. <br /><br />",
+	"research_desc": "<b>Research works</b> in collaboration with a French researcher and an international laboratory on different subjects like <b>hardware reverse engineering</b>, <b>cryptography</b> or <b>template matching algorithms</b>. Fork of Degate : software for reverse engineering of silicon chips in C++, and porting it for allowing multiplatform use. <br /><br />",
 	"research_date": "Jun. 2019 - now",
 	"research_job": "Student",
-	
-	"publication_d": "Publication",
-	"publication_d_desc": "✍ <i>\"Se protéger de la rétro-ingénierie matérielle -- État de l'art des méthodes de protection existantes\", Hackable 33, pp. 68-83, 2020.</i> <br />",
-	"publication_d_date": "Mar. 2020",
-	"publication_d_job": "Student",
-	
-	"publication_c": "Publication",
-	"publication_c_desc": "✍ <i>\"Le coût de la rétro-ingénierie du silicium -- Matériel nécessaire et risques associés\", Hackable 32, pp. 106-115, 2019.</i> <br />",
-	"publication_c_date": "Dec. 2019",
-	"publication_c_job": "Student",
-	
-	"publication_b": "Publication",
-	"publication_b_desc": "✍ <i>\"Rétro-ingénierie matérielle : comprendre le silicium -- État de l'art des méthodes d'analyses de puce de silicium\", Hackable 31, pp. 108-114, 2019.</i> <br />",
-	"publication_b_date": "Sept. 2019",
-	"publication_b_job": "Student",
-	
-	"publication_a": "Publication",
-	"publication_a_desc": "✍ <i>\"Rétro-ingénierie matérielle : accéder au silicium -- État de l'art des méthodes de décapsulations et de déstratifications de puce de silicium\", Hackable 31, pp. 98-107, 2019.</i>",
-	"publication_a_date": "Sept. 2019",
-	"publication_a_job": "Student",
 	
 	"research_lab": "Research projects in a University lab",
 	"research_lab_desc": "Worked on <b>hardware reverse engineering</b> and <b>cryptography</b> at the Laboratory of Cryptology and Operational Virology (C + V)°.",

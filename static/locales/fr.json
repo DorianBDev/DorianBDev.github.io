@@ -26,28 +26,8 @@
   "career":{
     "my_career": "Ma carrière",
 	
-	"publication_d": "Publication",
-	"publication_d_desc": "✍ <i>\"Se protéger de la rétro-ingénierie matérielle -- État de l'art des méthodes de protection existantes\", Hackable 33, pp. 68-83, 2020.</i> <br />",
-	"publication_d_date": "Mar. 2020",
-	"publication_d_job": "Étudiant",
-	
-	"publication_c": "Publication",
-	"publication_c_desc": "✍ <i>\"Le coût de la rétro-ingénierie du silicium -- Matériel nécessaire et risques associés\", Hackable 32, pp. 106-115, 2019.</i> <br />",
-	"publication_c_date": "Dec. 2019",
-	"publication_c_job": "Étudiant",
-	
-	"publication_b": "Publication",
-	"publication_b_desc": "✍ <i>\"Rétro-ingénierie matérielle : comprendre le silicium -- État de l'art des méthodes d'analyses de puce de silicium\", Hackable 31, pp. 108-114, 2019.</i> <br />",
-	"publication_b_date": "Sept. 2019",
-	"publication_b_job": "Étudiant",
-	
-	"publication_a": "Publication",
-	"publication_a_desc": "✍ <i>\"Rétro-ingénierie matérielle : accéder au silicium -- État de l'art des méthodes de décapsulations et de déstratifications de puce de silicium\", Hackable 31, pp. 98-107, 2019.</i>",
-	"publication_a_date": "Sept. 2019",
-	"publication_a_job": "Étudiant",
-	
 	"research": "Projets de recherche",
-	"research_desc": "<b>Travaux de recherche en collaboration</b> avec un chercheur français et un laboratoire russe sur différents sujets comme la rétro-ingénierie matérielle de puce de silicium, la cryptologie ou encore les algorithmes de correspondance de modèles. Reprise du développement (fork) de <b>Degate</b> : un logiciel de rétro-ingénierie de puce de silicium en C++, et portage de celui-ci pour une utilisation multiplateforme.",
+	"research_desc": "<b>Travaux de recherche en collaboration</b> avec un chercheur français et un laboratoire européen sur différents sujets comme la rétro-ingénierie matérielle de puce de silicium, la cryptologie ou encore les algorithmes de correspondance de modèles. Reprise du développement (fork) de <b>Degate</b> : un logiciel de rétro-ingénierie de puce de silicium en C++, et portage de celui-ci pour une utilisation multiplateforme.",
 	"research_date": "Juin. 2019 - aujourd'hui",
 	"research_job": "Étudiant",
 	
