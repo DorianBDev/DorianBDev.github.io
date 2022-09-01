@@ -1,0 +1,51 @@
+body {
+    background-color: #050505;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.name {
+    text-align: center;
+    color: white;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.links {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+    justify-content: center;
+    display: flex;
+    overflow-x: visible;
+}
+
+li.icon a {
+    display: block;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 500px;
+    margin-right: 10px;
+    display: inline;
+    float: left;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+li.icon a:hover {
+    background-color: grey;
+}
+
+li.icon a span {
+    padding-right: 5px;
+}
