@@ -49,3 +49,39 @@ li.icon a:hover {
 li.icon a span {
     padding-right: 5px;
 }
+
+li.talk {
+    margin: 20px
+}
+
+li.talk a {
+    display: block;
+    padding: 15px;
+    border-radius: 500px;
+    margin-right: 10px;
+    display: inline;
+    float: left;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    animation: blink 1s linear infinite;
+    margin:-5px;
+}
+
+li.talk a:hover {
+    background-color: grey;
+}
+
+li.talk a span {
+    padding-right: 5px;
+}
+
+
+@keyframes blink {    
+    from, to {    
+        border: 5px solid DarkRed;
+    }    
+    50% {    
+        border: 1px solid DarkRed;
+    }    
+}    
