@@ -54,9 +54,14 @@ li.talk {
     margin: 20px
 }
 
+@keyframes blink {
+   50% { border-color: #ff0000; }
+}
+
 li.talk a {
     display: block;
     padding: 15px;
+    border: 3px solid #000000;
     border-radius: 500px;
     margin-right: 10px;
     display: inline;
@@ -64,8 +69,7 @@ li.talk a {
     justify-content: center;
     text-decoration: none;
     color: white;
-    animation: blink 1s linear infinite;
-    margin:-5px;
+    animation: blink .5s step-end infinite alternate;
 }
 
 li.talk a:hover {
@@ -75,13 +79,3 @@ li.talk a:hover {
 li.talk a span {
     padding-right: 5px;
 }
-
-
-@keyframes blink {    
-    from, to {    
-        border: 5px solid DarkRed;
-    }    
-    50% {    
-        border: 1px solid DarkRed;
-    }    
-}    
