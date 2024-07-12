@@ -9,10 +9,41 @@
 
         <!-- CDN -->
         <link rel="stylesheet" href="assets/main.css">
+        <link rel="stylesheet" href="assets/background.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
     </head>
 
     <body>
+        <!-- Navigation -->
+        <ul class="navigation">
+
+            <!-- Blog -->
+            <li class="icon">
+                <a href="https://dorianb.net/blog">
+                    <span class="fa fa-book"></span>
+                    Blog
+                </a>
+            </li>
+
+            <!-- Toolbox -->
+            <li class="icon">
+                <a href="https://dorianb.net/toolbox">
+                    <span class="fa fa-archive"></span>
+                    Toolbox
+                </a>
+            </li>
+
+            <!-- Att&ck -->
+            <!-- <li class="icon"> -->
+                <!-- <a href="https://dorianb.net/attack"> -->
+                    <!-- <span class="fa fa-table"></span> -->
+                    <!-- Att&ck -->
+                <!-- </a> -->
+            <!-- </li> -->
+
+        </ul>
+
+    
         <div class="main">
 
             <!-- Avatar -->
@@ -23,7 +54,14 @@
                 Dorian Bachelot
             </h1>
 
+            <!-- Motto -->
+            <h4 style="color:white; text-align: center;">
+                Understand, don't memorize.
+            </h4>
+
             <br/>
+
+            <h2>Links</h2>
 
             <!-- First links row -->
             <ul class="links">
@@ -71,64 +109,40 @@
                         Hack The Box
                     </a>
                 </li>
-
-                <!-- Email -->
-                <li class="icon">
-                    <a href="mailto:contact@dorianb.net">
-                        <span class="fa fa-envelope"></span>
-                        EMail
-                    </a>
-                </li>
-
-                <!-- PGP Key -->
-                <li class="icon">
-                    <a href="https://keybase.io/dorianb">
-                        <span class="fa fa-key"></span>
-                        PGP Key
-                    </a>
-                </li>
             </ul>
 
             <br/>
 
-            <!-- Third links row -->
-            <ul class="links">
+            <h2>Contact</h2>
 
-                <!-- Blog -->
-                <li class="icon">
-                    <a href="https://dorianb.net/blog">
-                        <span class="fa fa-book"></span>
-                        Blog
-                    </a>
-                </li>
+                <ul class="links">
 
-                <!-- Toolbox -->
-                <li class="icon">
-                    <a href="https://dorianb.net/toolbox">
-                        <span class="fa fa-archive"></span>
-                        Toolbox
-                    </a>
-                </li>
+                    <!-- Email -->
+                    <li class="icon">
+                        <a href="mailto:contact@dorianb.net">
+                            <span class="fa fa-envelope"></span>
+                            EMail
+                        </a>
+                    </li>
 
-                <!-- Att&ck -->
-                <li class="icon">
-                    <a href="https://dorianb.net/attack">
-                        <span class="fa fa-table"></span>
-                        Att&ck
-                    </a>
-                </li>
-
-            </ul>
+                    <!-- PGP Key -->
+                    <li class="icon">
+                        <a href="https://keybase.io/dorianb">
+                            <span class="fa fa-key"></span>
+                            PGP Key
+                        </a>
+                    </li>
+                </ul>
 
             <br/>
-            <br/>
 
+            <h2>Events</h2>
 
             <!-- Events row -->
             <ul class="links">
 
                 <!-- Bière Sécu Rennes -->
-                <li class="talk">
+                <li class="otalk">
                     <a href="assets/FSiC2024.pdf">
                         <center>
                             <span class="fa fa-file-pdf-o"></span>
@@ -140,7 +154,7 @@
                 </li>
 
                 <!-- Bière Sécu Rennes -->
-                <li class="talk">
+                <li class="otalk">
                     <a href="assets/FSiC2024_full.pdf">
                         <center>
                             <span class="fa fa-file-pdf-o"></span>
@@ -154,11 +168,10 @@
 
             </ul>
 
-            <!-- Old events row -->
             <ul class="links">
 
                 <!-- Bière Sécu Rennes -->
-                <li class="icon">
+                <li class="otalk">
                     <a href="assets/bsr2024.pdf">
                         <center>
                             <span class="fa fa-file-pdf-o"></span>
@@ -170,7 +183,7 @@
                 </li>
 
                 <!-- Bière Sécu Rennes -->
-                <li class="icon">
+                <li class="otalk">
                     <a href="assets/bsr2024_full.pdf">
                         <center>
                             <span class="fa fa-file-pdf-o"></span>
@@ -186,4 +199,50 @@
 
         </div>
     </body>
+
+<script>
+    /**
+     * This function generates a random number between a given range (min and max).
+     * @param {number} min - The minimum value for the random number.
+     * @param {number} max - The maximum value for the random number.
+     * @return {number} A random number between min and max (inclusive).
+     */
+    var randomNumber = function(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    };
+
+    /**
+     * This variable holds the number of stars to be created.
+     */
+    var numberOfStars = randomNumber(50, 150);
+
+    /**
+     * This function creates stars with random positions, sizes, and animation directions.
+     */
+    var createStars = function() {
+        /**
+         * This variable holds the initial star rotation direction.
+         */
+        var starRotation = 'move_right;';
+
+        // Loop through the number of stars to be created
+        for (var i = 0; i < numberOfStars; i++) {
+            // Switch the rotation direction for each star
+            var rotation = (starRotation === 'move_right;' ? 'move_left;' : 'move_right;');
+
+            // Generate random values for star's position, size, and animation duration
+            var starTop = randomNumber(0, document.documentElement.clientHeight);
+            var starLeft = randomNumber(0, document.documentElement.clientWidth);
+            var starRadius = randomNumber(0, 4);
+            var starDuration = randomNumber(6, 16);
+
+            // Create a new star with the generated values and add it to the body of the document
+            document.body.innerHTML += "<div class='star' style='top: " + starTop + "px; left: " + starLeft + "px; width: " + starRadius + "px; height: " + starRadius + "px; " +
+                "animation-name:" + rotation + "; animation-duration: " + starDuration + "s;'></div>";
+        }
+    };
+
+    // Call the function to create stars
+    createStars();    
+</script>
 </html>

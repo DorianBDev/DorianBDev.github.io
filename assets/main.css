@@ -4,12 +4,13 @@ body {
 }
 
 .main {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .name {
     text-align: center;
     color: white;
+    text-decoration: underline overline;
 }
 
 img {
@@ -79,3 +80,61 @@ li.talk a:hover {
 li.talk a span {
     padding-right: 5px;
 }
+
+li.otalk a {
+    display: block;
+    padding: 15px;
+    border: 1px solid DimGrey;
+    border-radius: 500px;
+    margin-right: 10px;
+    display: inline;
+    float: left;
+    justify-content: center;
+    text-decoration: none;
+    color: DimGrey;
+}
+
+li.otalk a:hover {
+    background-color: grey;
+}
+
+li.otalk a span {
+    padding-right: 5px;
+}
+
+h2 {
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+ul.navigation {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+    justify-content: right;
+    display: flex;
+    overflow-x: visible;
+}
+
+.navigation li.icon a {
+    display: block;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 0px;
+    margin-right: 0px;
+    display: inline;
+    float: left;
+    justify-content: center;
+    font-weight: bold;    
+    color: white;
+}
+
+.navigation li.icon a:hover {
+    background-color: grey;
+}
+
+.navigation li.icon a span {
+    padding-right: 5px;
+}
+
