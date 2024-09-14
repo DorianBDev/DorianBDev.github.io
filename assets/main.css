@@ -140,3 +140,78 @@ ul.navigation {
     padding-right: 5px;
 }
 
+ul.lnavigation {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+    justify-content: left;
+    display: inline;
+    overflow-x: visible;
+}
+
+.lnavigation li.icon a {
+    display: block;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 0px;
+    margin-right: 0px;
+    display: inline;
+    float: left;
+    justify-content: center;
+    font-weight: bold;    
+    color: white;
+}
+
+.lnavigation li.icon a:hover {
+    background-color: grey;
+}
+
+.lnavigation li.icon a span {
+    padding-right: 5px;
+}
+
+.event {
+    display: block;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-weight: bold;    
+    color: white;
+    text-align: center;
+    animation: blink .5s step-end infinite alternate;
+}
+
+.event a {
+    display: block;
+    float: center;
+    justify-content: center;
+    font-weight: bold;    
+    color: white;
+}
+
+.oevent {
+    display: block;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-weight: bold;    
+    color: DimGrey;
+    text-align: center;
+}
+
+.oevent a {
+    display: block;
+    float: center;
+    justify-content: center;
+    font-weight: bold;    
+    color: DimGrey;
+}
+
