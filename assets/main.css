@@ -3,6 +3,7 @@ body {
     height: 100%;
     overflow: auto;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 .main {
@@ -172,11 +173,12 @@ ul.lnavigation {
 
 .event {
     display: block;
-    padding: 5px;
+    padding: 30px;
     border: 1px solid grey;
     border-radius: 50px;
-    margin-right: 35%;
-    margin-left: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
     margin-bottom: 20px;
     justify-content: center;
     font-weight: bold;    
@@ -195,11 +197,12 @@ ul.lnavigation {
 
 .oevent {
     display: block;
-    padding: 5px;
+    padding: 30px;
     border: 1px solid grey;
     border-radius: 50px;
-    margin-right: 35%;
-    margin-left: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
     margin-bottom: 20px;
     justify-content: center;
     font-weight: bold;    

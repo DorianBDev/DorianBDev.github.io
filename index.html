@@ -280,7 +280,7 @@
     /**
      * Holds the number of stars to be created.
      */
-    var numberOfStars = randomNumber(50, 150);
+    var numberOfStars = randomNumber(50, 350);
 
     /**
      * Creates stars with random positions, sizes, and animation directions.
@@ -291,14 +291,20 @@
          */
         var starRotation = 'move_right;';
 
+        var body = document.body,
+            html = document.documentElement;
+
+        var height = Math.max(body.scrollHeight, body.offsetHeight, 
+                              html.clientHeight, html.scrollHeight, html.offsetHeight);
+
         // Loop through the number of stars to be created
         for (var i = 0; i < numberOfStars; i++) {
             // Switch the rotation direction for each star
             var rotation = (starRotation === 'move_right;' ? 'move_left;' : 'move_right;');
 
             // Generate random values for star's position, size, and animation duration
-            var starTop = randomNumber(0, document.documentElement.clientHeight);
-            var starLeft = randomNumber(0, document.documentElement.clientWidth);
+            var starTop = randomNumber(0, height);
+            var starLeft = randomNumber(0, window.innerWidth);
             var starRadius = randomNumber(0, 4);
             var starDuration = randomNumber(6, 16);
 
