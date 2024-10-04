@@ -36,7 +36,7 @@ ul.links {
 li.icon a {
     display: block;
     padding: 15px;
-    border: 1px solid grey;
+    border: 2px solid grey;
     border-radius: 500px;
     margin-right: 10px;
     display: inline;
@@ -59,13 +59,18 @@ li.talk {
 }
 
 @keyframes blink {
-   50% { border-color: #ff0000; }
+   50% { border-color: #8a0505; }
 }
+
+@keyframes blink-plus {
+   50% { border: 6px solid #8a0505; margin-top: -4px; margin-bottom: -4px; }
+}
+
 
 li.talk a {
     display: block;
     padding: 15px;
-    border: 3px solid #000000;
+    border: 2px solid DimGrey;
     border-radius: 500px;
     margin-right: 10px;
     display: inline;
@@ -73,7 +78,8 @@ li.talk a {
     justify-content: center;
     text-decoration: none;
     color: white;
-    animation: blink .5s step-end infinite alternate;
+    animation: blink-plus .5s step-end infinite alternate;
+    box-sizing: content-box;
 }
 
 li.talk a:hover {
@@ -87,7 +93,7 @@ li.talk a span {
 li.otalk a {
     display: block;
     padding: 15px;
-    border: 1px solid DimGrey;
+    border: 2px solid DimGrey;
     border-radius: 500px;
     margin-right: 10px;
     display: inline;
@@ -123,7 +129,7 @@ ul.navigation {
 .navigation li.icon a {
     display: block;
     padding: 10px;
-    border: 1px solid grey;
+    border: 2px solid grey;
     border-radius: 0px;
     margin-right: 0px;
     display: inline;
@@ -153,7 +159,7 @@ ul.lnavigation {
 .lnavigation li.icon a {
     display: block;
     padding: 10px;
-    border: 1px solid grey;
+    border: 2px solid grey;
     border-radius: 0px;
     margin-right: 0px;
     display: inline;
@@ -174,7 +180,7 @@ ul.lnavigation {
 .event {
     display: block;
     padding: 30px;
-    border: 1px solid grey;
+    border: 3px solid white;
     border-radius: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -184,7 +190,6 @@ ul.lnavigation {
     font-weight: bold;    
     color: white;
     text-align: center;
-    animation: blink .5s step-end infinite alternate;
 }
 
 .event a {
@@ -198,7 +203,7 @@ ul.lnavigation {
 .oevent {
     display: block;
     padding: 30px;
-    border: 1px solid grey;
+    border: 3px solid grey;
     border-radius: 50px;
     margin-left: auto;
     margin-right: auto;
