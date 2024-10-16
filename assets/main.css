@@ -54,10 +54,6 @@ li.icon a span {
     padding-right: 5px;
 }
 
-li.talk {
-    margin: 20px
-}
-
 @keyframes blink {
    50% { border-color: #8a0505; }
 }
@@ -66,8 +62,11 @@ li.talk {
    50% { border: 6px solid #8a0505; margin-top: -4px; margin-bottom: -4px; }
 }
 
+li.ntalk {
+    margin: 20px
+}
 
-li.talk a {
+li.ntalk a {
     display: block;
     padding: 15px;
     border: 2px solid DimGrey;
@@ -82,8 +81,29 @@ li.talk a {
     box-sizing: content-box;
 }
 
-li.talk a:hover {
+li.ntalk a:hover {
     background-color: grey;
+}
+
+li.ntalk a span {
+    padding-right: 5px;
+}
+
+li.talk a {
+    display: block;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 500px;
+    margin-right: 10px;
+    display: inline;
+    float: left;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+li.talk a:hover {
+    background-color: white;
 }
 
 li.talk a span {
@@ -223,3 +243,46 @@ ul.lnavigation {
     color: DimGrey;
 }
 
+.voevent {
+    display: block;
+    padding: 30px;
+    border: 3px solid #202020;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-weight: bold;    
+    color: #202020;
+    text-align: center;
+}
+
+.voevent a {
+    display: block;
+    float: center;
+    justify-content: center;
+    font-weight: bold;    
+    color: #202020;
+}
+
+li.votalk a {
+    display: block;
+    padding: 15px;
+    border: 2px solid #202020;
+    border-radius: 500px;
+    margin-right: 10px;
+    display: inline;
+    float: left;
+    justify-content: center;
+    text-decoration: none;
+    color: #202020;
+}
+
+li.votalk a:hover {
+    background-color: #202020;
+}
+
+li.votalk a span {
+    padding-right: 5px;
+}
