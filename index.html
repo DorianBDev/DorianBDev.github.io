@@ -346,6 +346,7 @@
                               html.clientHeight, html.scrollHeight, html.offsetHeight);
 
         // Loop through the number of stars to be created
+        var stars = "";
         for (var i = 0; i < numberOfStars; i++) {
             // Switch the rotation direction for each star
             var rotation = (starRotation === 'move_right;' ? 'move_left;' : 'move_right;');
@@ -357,9 +358,10 @@
             var starDuration = randomNumber(6, 16);
 
             // Create a new star with the generated values and add it to the body of the document
-            document.body.innerHTML += "<div class='star' style='top: " + starTop + "px; left: " + starLeft + "px; width: " + starRadius + "px; height: " + starRadius + "px; " +
-                "animation-name:" + rotation + "; animation-duration: " + starDuration + "s;'></div>";
+            stars += "<div class='star' style='top: " + starTop + "px; left: " + starLeft + "px; width: " + starRadius + "px; height: " + starRadius + "px; " +
+                "animation-name:" + rotation + "; animation-duration: " + starDuration + "s;z-index: -1;'></div>";
         }
+        document.body.innerHTML += "<div id='stars'>" + stars + "</div>";
     };
 
     // Create stars
