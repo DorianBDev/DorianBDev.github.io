@@ -151,12 +151,13 @@ ul.navigation {
     padding: 10px;
     border: 2px solid grey;
     border-radius: 0px;
-    margin-right: 0px;
+    margin-right: -2px;
     display: inline;
     float: left;
     justify-content: center;
     font-weight: bold;    
     color: white;
+
 }
 
 .navigation li.icon a:hover {
