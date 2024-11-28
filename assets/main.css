@@ -103,7 +103,7 @@ li.talk a {
 }
 
 li.talk a:hover {
-    background-color: white;
+    background-color: #505050;
 }
 
 li.talk a span {
@@ -124,7 +124,7 @@ li.otalk a {
 }
 
 li.otalk a:hover {
-    background-color: grey;
+    background-color: #303030;
 }
 
 li.otalk a span {
@@ -256,7 +256,7 @@ li.votalk a {
 }
 
 li.votalk a:hover {
-    background-color: #202020;
+    background-color: #101010;
 }
 
 li.votalk a span {
