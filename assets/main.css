@@ -137,16 +137,21 @@ h2 {
     text-align: center;
 }
 
-ul.navigation {
+.navigation-bar {
+    margin-top: 20px;
+}
+
+.navigation-bar ul {
     cursor: default;
     list-style: none;
-    padding-left: 0;
+    padding: 0px;
+    margin: 0px;
     justify-content: right;
     display: flex;
     overflow-x: visible;
 }
 
-.navigation li.icon a {
+.navigation-bar li.icon a {
     display: block;
     padding: 10px;
     border: 2px solid grey;
@@ -155,47 +160,17 @@ ul.navigation {
     display: inline;
     float: left;
     justify-content: center;
-    font-weight: bold;    
-    color: white;
-
-}
-
-.navigation li.icon a:hover {
-    background-color: grey;
-}
-
-.navigation li.icon a span {
-    padding-right: 5px;
-}
-
-ul.lnavigation {
-    cursor: default;
-    list-style: none;
-    padding-left: 0;
-    justify-content: left;
-    display: inline;
-    overflow-x: visible;
-}
-
-.lnavigation li.icon a {
-    display: block;
-    padding: 10px;
-    border: 2px solid grey;
-    border-radius: 0px;
-    margin-right: 0px;
-    display: inline;
-    float: left;
-    justify-content: center;
-    font-weight: bold;    
+    font-weight: bold;
     color: white;
 }
 
-.lnavigation li.icon a:hover {
+.navigation-bar li.icon a:hover {
     background-color: grey;
 }
 
-.lnavigation li.icon a span {
-    padding-right: 5px;
+.navigation-bar li.icon a span {
+    margin-right: 5px;
+    padding: 0px;
 }
 
 .event {
