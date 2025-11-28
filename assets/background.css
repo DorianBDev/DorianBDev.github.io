@@ -9,3 +9,26 @@
    from { transform: rotate(0deg) translateX(8px) rotate(0deg); }
     to   { transform: rotate(-360deg) translateX(8px) rotate(360deg); }
 }
+
+.glow-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -100000;
+  overflow: hidden;
+  pointer-events: none;
+  transition: all 3.5s ease;
+}
+
+.glow-clip {
+  clip-path: circle(75%);
+  aspect-ratio: 16 / 9;
+  position: absolute;
+  inset: 0;
+  transition: all 3.5s ease;
+}
+
+/* Light mode support */
+body.light .glow-clip {
+  opacity: 1 !important;
+}
+
